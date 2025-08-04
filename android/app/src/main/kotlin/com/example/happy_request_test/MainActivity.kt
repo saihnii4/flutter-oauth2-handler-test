@@ -1,4 +1,4 @@
-package com.example.oauth_test_app
+package com.example.happy_request_test
 
 import io.flutter.embedding.android.FlutterActivity
 

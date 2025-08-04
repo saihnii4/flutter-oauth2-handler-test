@@ -1,6 +1,6 @@
 {
-    "name": "oauth_test_app",
-    "short_name": "oauth_test_app",
+    "name": "happy_request_test",
+    "short_name": "happy_request_test",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

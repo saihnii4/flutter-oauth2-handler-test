@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-  <application android:icon="@mipmap/ic_launcher" android:label="oauth_test_app" android:name="${applicationName}">
+  <application android:icon="@mipmap/ic_launcher" android:label="happy_request_test" android:name="${applicationName}">
     <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" android:exported="true" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name=".MainActivity" android:taskAffinity="" android:theme="@style/LaunchTheme" android:windowSoftInputMode="adjustResize">
       <!-- Specifies an Android theme to apply to this Activity as soon as
                  the Android process has started. This theme is visible to the user
@@ -12,11 +12,11 @@
       </intent-filter>
     </activity>
     <activity android:exported="true" android:name="com.linusu.flutter_web_auth_2.CallbackActivity">
-      <intent-filter android:label="flutter_web_auth">
+      <intent-filter android:label="flutter_web_auth_2">
         <action android:name="android.intent.action.VIEW"></action>
         <category android:name="android.intent.category.DEFAULT"></category>
         <category android:name="android.intent.category.BROWSABLE"></category>
-        <data android:host="192.168.1.58" android:scheme="http"></data>
+        <data android:scheme="com.oauth2.example"></data>
       </intent-filter>
     </activity>
     <!-- Don't delete the meta-data below.

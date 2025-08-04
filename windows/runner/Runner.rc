@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "oauth_test_app" "\0"
+            VALUE "FileDescription", "happy_request_test" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "oauth_test_app" "\0"
+            VALUE "InternalName", "happy_request_test" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "oauth_test_app.exe" "\0"
-            VALUE "ProductName", "oauth_test_app" "\0"
+            VALUE "OriginalFilename", "happy_request_test.exe" "\0"
+            VALUE "ProductName", "happy_request_test" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
